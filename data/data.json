@@ -1,0 +1,13 @@
+{
+  "persian": {
+    "personalInfo": {
+      "name": "فرید",
+      "family": "قادری",
+      "dateOfBirth": {
+        "day": 20,
+        "month": "مهر",
+        "year": 2021
+      }
+    }
+  }
+}
