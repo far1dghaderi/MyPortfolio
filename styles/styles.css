@@ -340,3 +340,27 @@ select {
   font-weight: bold;
   color: #a6a6a6;
 }
+.contact-ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.contact-ul li {
+  font-size: 22px;
+  font-weight: bold;
+  direction: ltr;
+}
+.contact-ul li span {
+  font-size: 26px;
+  color: goldenrod;
+  display: flex;
+  align-items: center;
+}
+.contact-ul li span span {
+  font-size: 22px;
+  color: #a8a8a8 !important;
+  font-weight: normal;
+}
