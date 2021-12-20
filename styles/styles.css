@@ -297,3 +297,46 @@ select {
 .slider-item:hover .details {
   transform: translateY(0);
 }
+
+#eduactions-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  /* font-style: italic; */
+  align-items: center;
+}
+
+.education-box {
+  height: 185px;
+  width: 55%;
+  background-color: #212121;
+  border-radius: 15px;
+  display: flex;
+}
+.education-box img {
+  width: 40%;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  opacity: 0.6;
+}
+.education-box > div {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.education-box > div .name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #a6a6a6;
+}
+.education-box > div .field-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #a6a6a6;
+}
+.education-box > div .duration {
+  font-size: 18px;
+  font-weight: bold;
+  color: #a6a6a6;
+}
