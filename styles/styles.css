@@ -154,3 +154,48 @@ select {
   width: 60%;
   background-color: #323232;
 }
+#skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+#skills-container h3 {
+  width: 100%;
+  font-size: 25px;
+  color: white;
+  margin: 30px 0;
+  text-align: center;
+}
+.skill-box {
+  width: 20%;
+  display: flex;
+  height: 60px;
+  background-color: #202020;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+.skill-box span {
+  width: 40%;
+  text-align: center;
+  color: #ddbea9;
+}
+
+.skill-level {
+  height: 20px;
+  width: 95%;
+  margin: 0 5px;
+  border-radius: 6px;
+  background-color: #2d2d2d;
+  position: relative;
+}
+.skill-level div {
+  position: absolute;
+  height: 100%;
+  border-radius: 0 6px 6px 0;
+  top: 0;
+  right: 0;
+  width: 50%;
+  background-color: #50a06b;
+}

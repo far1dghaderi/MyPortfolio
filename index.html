@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/splide-core.min.css"
+    />
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
@@ -12,7 +16,7 @@
     <nav>
       <ul>
         <li><a class="menu-item" href="#">درباره من</a></li>
-        <li><a class="menu-item" href="#">مهارت‌ها</a></li>
+        <li><a class="menu-item" href="#skills-container">مهارت‌ها</a></li>
         <li><a class="menu-item" href="#">پروژه‌ها</a></li>
         <li><a class="menu-item" href="#">تحصیلات</a></li>
         <li><a class="menu-item" href="#">راه‌های ارتباطی</a></li>
@@ -51,8 +55,8 @@
             <span class="box-info">کردستان - سنندج</span>
           </div>
           <div class="info-box hvr-sink">
-            <span class="box-title">تخصص</span>
-            <span class="box-info">Back-end</span>
+            <span class="box-title">تایپ شخصیتی</span>
+            <span class="box-info">ISFJ</span>
           </div>
         </div>
       </section>
@@ -62,13 +66,59 @@
       </div>
 
       <h1 class="title">مهارت‌ها</h1>
+      <section id="skills-container">
+        <h3>بک‌اند</h3>
+        <div class="skill-box">
+          <span>Node.js</span>
+          <div class="skill-level">
+            <div></div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <span>Express.js</span>
+          <div class="skill-level">
+            <div></div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <span>Javascript</span>
+          <div class="skill-level">
+            <div></div>
+          </div>
+        </div>
+        <h3>فرانت اند</h3>
+        <div class="skill-box">
+          <span>Vanila js</span>
+          <div class="skill-level">
+            <div></div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <span>HTML</span>
+          <div class="skill-level">
+            <div></div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <span>CSS</span>
+          <div class="skill-level">
+            <div></div>
+          </div>
+        </div>
+        <h3>دیتابیس</h3>
+        <div class="skill-box">
+          <span>MongoDB</span>
+          <div class="skill-level">
+            <div></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider">
+        <div></div>
+      </div>
+      <h1 class="title">پروژه‌ها</h1>
     </main>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js"
-      integrity="sha512-7IoDEsIJGxz/gNyJY/0LRtS45wDSvPFXGPuC7Fo4YueWMNOmWKMAllEqo2Im3pgOjeEwsOoieyliRgdkZnY0ow=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
     <script src="./js/jsonReader.js"></script>
     <script src="./js/index.js"></script>
   </body>
