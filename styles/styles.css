@@ -129,6 +129,7 @@ select {
   border-radius: 8px;
   width: 15%;
   box-shadow: 0px 0px 10px 3px #292929;
+  margin: 0 1%;
 }
 .info-box .box-title {
   font-size: 24px;

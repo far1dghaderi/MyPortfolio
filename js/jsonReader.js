@@ -13,5 +13,5 @@ function readTextFile(file, callback) {
 //usage:
 readTextFile("../data/data.json", function (text) {
   let data = JSON.parse(text);
-  console.log(data.persian.personalInfo.name);
+  // console.log(data.persian.personalInfo.name);
 });
