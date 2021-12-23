@@ -313,6 +313,7 @@ select {
   background-color: #212121;
   border-radius: 15px;
   display: flex;
+  margin-top: 20px;
 }
 .education-box img {
   width: 40%;
@@ -326,7 +327,7 @@ select {
   flex-direction: column;
   justify-content: space-between;
 }
-.education-box > div .name {
+.education-box > div .insitute-name {
   font-size: 18px;
   font-weight: bold;
   color: #a6a6a6;
@@ -334,12 +335,12 @@ select {
 .education-box > div .field-name {
   font-size: 18px;
   font-weight: bold;
-  color: #a6a6a6;
+  color: #919191;
 }
-.education-box > div .duration {
+.education-box > div .date {
   font-size: 18px;
   font-weight: bold;
-  color: #a6a6a6;
+  color: #919191;
 }
 .contact-ul {
   align-items: center;

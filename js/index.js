@@ -13,26 +13,31 @@ const loadData = (lang = "persian") => {
       infoBoxesContainer.appendChild(child);
     });
     const skillsContainer = document.querySelector("#skills-container");
-    let skills = dataJson.skills;
+    let { skills } = dataJson;
 
     skills.forEach((item) => {
       const skillsTitle = document.createElement("h3");
       skillsTitle.textContent = item.title;
-      console.log(skillsTitle);
       skillsContainer.appendChild(skillsTitle);
-      console.log(item.skill);
       item.skill.forEach((skill) => {
         let skillBox = generateSkillBox(skill.name, skill.knowledgeLevel);
-        console.log(skillBox);
         skillsContainer.appendChild(skillBox);
       });
     });
 
     const slideContainer = document.querySelector(".slide-container");
-    let projects = dataJson.projects;
+    let { projects } = dataJson;
     projects.forEach((project) => {
       const sliderItem = generatePorjectBox(project);
       slideContainer.appendChild(sliderItem);
+    });
+
+    let { education } = dataJson;
+
+    const educationContainer = document.querySelector("#eduactions-container");
+    education.forEach((item) => {
+      let educationBox = generateEducationBox(item);
+      educationContainer.appendChild(educationBox);
     });
   });
 };
@@ -48,7 +53,6 @@ const generateInfoBox = (title, text) => {
   infoSpan.classList.add("box-info");
   infoBoxElement.appendChild(titleSpan);
   infoBoxElement.appendChild(infoSpan);
-  console.log(title, text);
 
   return infoBoxElement;
 };
@@ -64,7 +68,6 @@ const generateSkillBox = (skillName, level) => {
   skillProgressContainer.classList.add("skill-level");
   const skillProgress = document.createElement("div");
   skillProgress.style.width = level + "%";
-  console.log(skillProgress.style);
   skillProgressContainer.appendChild(skillProgress);
 
   skillBox.appendChild(nameSpan);
@@ -108,4 +111,31 @@ const generatePorjectBox = (porjectObj) => {
   sliderItem.appendChild(projectDetailsContainer);
 
   return sliderItem;
+};
+generateEducationBox = (educationObj) => {
+  const educationBox = document.createElement("div");
+  educationBox.classList.add("education-box");
+
+  const img = document.createElement("img");
+  img.src = educationObj.imgSrc;
+  educationBox.append(img);
+
+  const educationInfoContainer = document.createElement("div");
+
+  const nameSpan = document.createElement("span");
+  nameSpan.classList.add("insitute-name");
+  nameSpan.textContent = educationObj.institute;
+  const fieldNameSpan = document.createElement("span");
+  fieldNameSpan.classList.add("field-name");
+  fieldNameSpan.textContent = educationObj.field;
+  const dateSpan = document.createElement("span");
+  dateSpan.classList.add("date");
+  dateSpan.textContent = educationObj.date;
+  educationInfoContainer.appendChild(nameSpan);
+  educationInfoContainer.appendChild(fieldNameSpan);
+  educationInfoContainer.appendChild(dateSpan);
+
+  educationBox.append(educationInfoContainer);
+
+  return educationBox;
 };

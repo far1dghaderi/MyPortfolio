@@ -75,6 +75,14 @@
         "description": "این پروژه هم پروژه‌ مربوط به سفر و رزرو تورهای مسافرتی است. مباحث Restful API و کار با Geospatial Data در آن پوشش داده شده‌اند. ",
         "img": "./images/ticketify.jpeg"
       }
+    ],
+    "education": [
+      {
+        "institute": "دانشگاه فنی و حرفه‌ایی انقلاب اسلامی تهران",
+        "field": "کاردانی مهندسی نرم‌افزار",
+        "date": " ۱۳۹۹ تا به امروز",
+        "imgSrc": "./images/enghelab-e-eslami.jpg"
+      }
     ]
   }
 }
