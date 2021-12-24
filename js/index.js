@@ -1,47 +1,43 @@
 const loadData = (lang = "persian") => {
   const aboutP = document.querySelector(".info-container p");
   const infoBoxesContainer = document.querySelector(".sub-info-container");
+  let data = applicationData[lang];
 
-  readTextFile("../data/data.json", (data) => {
-    let dataJson = JSON.parse(data);
-    dataJson = dataJson[lang];
+  aboutP.textContent = data.about;
 
-    aboutP.textContent = dataJson.about;
+  data.subInfo.forEach((data) => {
+    let child = generateInfoBox(data.title, data.info);
+    infoBoxesContainer.appendChild(child);
+  });
+  const skillsContainer = document.querySelector("#skills-container");
+  let { skills } = data;
 
-    dataJson.subInfo.forEach((data) => {
-      let child = generateInfoBox(data.title, data.info);
-      infoBoxesContainer.appendChild(child);
-    });
-    const skillsContainer = document.querySelector("#skills-container");
-    let { skills } = dataJson;
-
-    skills.forEach((item) => {
-      const skillsTitle = document.createElement("h3");
-      skillsTitle.textContent = item.title;
-      skillsContainer.appendChild(skillsTitle);
-      item.skill.forEach((skill) => {
-        let skillBox = generateSkillBox(skill.name, skill.knowledgeLevel);
-        skillsContainer.appendChild(skillBox);
-      });
-    });
-
-    const slideContainer = document.querySelector(".slide-container");
-    let { projects } = dataJson;
-    projects.forEach((project) => {
-      const sliderItem = generatePorjectBox(project);
-      slideContainer.appendChild(sliderItem);
-    });
-
-    let { education } = dataJson;
-
-    const educationContainer = document.querySelector("#eduactions-container");
-    education.forEach((item) => {
-      let educationBox = generateEducationBox(item);
-      educationContainer.appendChild(educationBox);
+  skills.forEach((item) => {
+    const skillsTitle = document.createElement("h3");
+    skillsTitle.textContent = item.title;
+    skillsContainer.appendChild(skillsTitle);
+    item.skill.forEach((skill) => {
+      let skillBox = generateSkillBox(skill.name, skill.knowledgeLevel);
+      skillsContainer.appendChild(skillBox);
     });
   });
+
+  const slideContainer = document.querySelector(".slide-container");
+  let { projects } = data;
+  projects.forEach((project) => {
+    const sliderItem = generatePorjectBox(project);
+    slideContainer.appendChild(sliderItem);
+  });
+
+  let { education } = data;
+
+  const educationContainer = document.querySelector("#eduactions-container");
+  education.forEach((item) => {
+    let educationBox = generateEducationBox(item);
+    educationContainer.appendChild(educationBox);
+  });
 };
-loadData();
+
 const generateInfoBox = (title, text) => {
   const infoBoxElement = document.createElement("div");
   infoBoxElement.classList.add("info-box", "hvr-sink");
@@ -139,3 +135,5 @@ generateEducationBox = (educationObj) => {
 
   return educationBox;
 };
+
+loadData();
