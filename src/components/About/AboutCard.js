@@ -10,8 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Farid Ghaderi </span>
             from <span className="purple"> Sanandaj, Iran.</span>
-            <br />I am a junior Node.js Developer and since early 2020, but I
-            didn't work in companies and organizations, So I don't have much
+            <br />I am a junior Node.js Developer since early 2020, but I didn't
+            work in companies and organizations, So I don't have much
             experience.
             <br />
             <br />
