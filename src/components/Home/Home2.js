@@ -27,8 +27,14 @@ function Home2() {
               <i>
                 <b className="purple"> Javascript </b>
               </i>{" "}
-              and every thing that is kinda related to it. I’m{" "}
-              <b className="purple">eager to learn </b>
+              and every thing that is kinda related to it. I'm working with{" "}
+              <strong className="purple">Node.js</strong> since early 2021, but
+              I didn't work in companies and organizations, So I don't have much
+              experience. I also start working with Javascript in the middle of
+              2020, so I think I have a good knowledge in javascript.
+              <br />
+              <br />
+              I'm <b className="purple">eager to learn </b>
               and I love to learn about new stuff such as brand-new
               technologies, languages and etc. I’m{" "}
               <b className="purple">responsible</b> and{" "}
