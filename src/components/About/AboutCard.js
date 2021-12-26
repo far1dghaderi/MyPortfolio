@@ -35,9 +35,9 @@ function AboutCard() {
             <strong className="purple"> eager to learn</strong> are other
             possitive properties of my personlaity. For sure I'm not a perfect
             person and I do have some negative properties as well, but it
-            totally depends on the evironment that I'm working in, if it's good,
-            I'm also good, otherwise, I will swtich to my not-good version as
-            well.
+            totally depends on the environment that I'm working in, if it's
+            good, I'm also good, otherwise, I will swtich to my not-good version
+            as well.
             <br />
             <br />
             <br />
