@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/far1dghaderi/MyPortfolio/static/css/main.dbc27e74.chunk.css",
+    "main.js": "/far1dghaderi/MyPortfolio/static/js/main.0d6a327f.chunk.js",
+    "main.js.map": "/far1dghaderi/MyPortfolio/static/js/main.0d6a327f.chunk.js.map",
+    "runtime-main.js": "/far1dghaderi/MyPortfolio/static/js/runtime-main.7835f6f1.js",
+    "runtime-main.js.map": "/far1dghaderi/MyPortfolio/static/js/runtime-main.7835f6f1.js.map",
+    "static/css/2.5dfbe09b.chunk.css": "/far1dghaderi/MyPortfolio/static/css/2.5dfbe09b.chunk.css",
+    "static/js/2.7fb8cddd.chunk.js": "/far1dghaderi/MyPortfolio/static/js/2.7fb8cddd.chunk.js",
+    "static/js/2.7fb8cddd.chunk.js.map": "/far1dghaderi/MyPortfolio/static/js/2.7fb8cddd.chunk.js.map",
+    "static/js/3.f0e5a195.chunk.js": "/far1dghaderi/MyPortfolio/static/js/3.f0e5a195.chunk.js",
+    "static/js/3.f0e5a195.chunk.js.map": "/far1dghaderi/MyPortfolio/static/js/3.f0e5a195.chunk.js.map",
+    "index.html": "/far1dghaderi/MyPortfolio/index.html",
+    "static/css/2.5dfbe09b.chunk.css.map": "/far1dghaderi/MyPortfolio/static/css/2.5dfbe09b.chunk.css.map",
+    "static/css/main.dbc27e74.chunk.css.map": "/far1dghaderi/MyPortfolio/static/css/main.dbc27e74.chunk.css.map",
+    "static/js/2.7fb8cddd.chunk.js.LICENSE.txt": "/far1dghaderi/MyPortfolio/static/js/2.7fb8cddd.chunk.js.LICENSE.txt",
+    "static/media/about.aee0f771.png": "/far1dghaderi/MyPortfolio/static/media/about.aee0f771.png",
+    "static/media/avatar.7f806e40.svg": "/far1dghaderi/MyPortfolio/static/media/avatar.7f806e40.svg",
+    "static/media/style.css": "/far1dghaderi/MyPortfolio/static/media/pre.4410c5ba.svg",
+    "static/media/home-main.359935c3.svg": "/far1dghaderi/MyPortfolio/static/media/home-main.359935c3.svg",
+    "static/media/movie-api.ba0c875b.jpg": "/far1dghaderi/MyPortfolio/static/media/movie-api.ba0c875b.jpg",
+    "static/media/natours.ad5746c8.png": "/far1dghaderi/MyPortfolio/static/media/natours.ad5746c8.png",
+    "static/media/ticketify.1b835d4c.png": "/far1dghaderi/MyPortfolio/static/media/ticketify.1b835d4c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7835f6f1.js",
+    "static/css/2.5dfbe09b.chunk.css",
+    "static/js/2.7fb8cddd.chunk.js",
+    "static/css/main.dbc27e74.chunk.css",
+    "static/js/main.0d6a327f.chunk.js"
+  ]
+}
