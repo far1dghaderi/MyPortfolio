@@ -21,13 +21,10 @@ function Techstack() {
         <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiSocketDotIo />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
