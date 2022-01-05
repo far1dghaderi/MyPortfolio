@@ -37,15 +37,6 @@ function Projects() {
               link="https://github.com/far1dghaderi/ticketify"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mvoieApi}
-              isBlog={false}
-              title="Restful API for movies"
-              description="Just a simple Restful-API for retrieving data of movies. no authentication, no delete/edit/add, just simple get data functionalty"
-              link="https://github.com/far1dghaderi/ticketify"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
