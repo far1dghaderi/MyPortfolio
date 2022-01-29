@@ -24,7 +24,7 @@ function Projects() {
               imgPath={natours}
               isBlog={false}
               title="Tour booking website"
-              description="An awesome tour booking website built on top of NodeJS. Key features are: authentication and authorization, add, manage, remove tours and also booking tours, user profile managment and credit card payment using Stripe"
+              description="An awesome tour booking website built on top of NodeJS. Key features are: authentication and authorization, add, manage, remove tours and also booking tours, user profile management, and credit card payment using Stripe"
               link="https://github.com/far1dghaderi/Natours"
             />
           </Col>
@@ -33,7 +33,7 @@ function Projects() {
               imgPath={ticketify}
               isBlog={false}
               title="Sports ticket selling platform"
-              description="Ticketify is a ticket selling platform that is built with Node.js, ExpressJs & MongoDB and it is responsible for selling tickets for different kind of sports. key features are: Authentication and autherization, managaing stadiums, stadium stands, matches and..., user profile panel for reviewing payments and tickets, changing information and..."
+              description="Ticketify is a ticket selling platform that is built with Node.js, ExpressJs & MongoDB and it is responsible for selling tickets for different kinds of sports. key features are Authentication and authorization, managing  stadiums, stadium stands, matches and..., user profile panel for reviewing payments and tickets, changing information and..."
               link="https://github.com/far1dghaderi/ticketify"
             />
           </Col>
