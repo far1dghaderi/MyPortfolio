@@ -18,7 +18,7 @@ function AboutCard() {
             it till now :D. I really love to{" "}
             <strong className="purple">solve problems</strong> and mess around
             with <strong className="purple">data </strong>and{" "}
-            <strong className="purple">logical problems,</strong>
+            <strong className="purple">logical problems, </strong>
             So because of that, I chose Back-end as my starting stack, but for
             sure I will go for being a{" "}
             <strong className="purple">Full-stack</strong> developer in the near
@@ -66,11 +66,6 @@ function AboutCard() {
               <ImPointRight /> Listening to Music and Podcasts
             </li>
           </ul>
-
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Great things in business are never done by one person!"{" "}
-          </p>
-          <footer className="blockquote-footer">Steve Jobs</footer>
         </blockquote>
       </Card.Body>
     </Card>
